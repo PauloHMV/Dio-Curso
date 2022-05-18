@@ -1,0 +1,88 @@
+comando basico para um bom desempenho no terminal.
+
+windows/Linux comandos git
+cd - navegar entre as pastas, cd.. para retroceder um nivel na navegação, 
+
+cls/clear - limpar o terminal
+
+Tab - alto completar
+
+dir/ls - lista de diretorios continas na pastas na qual estamos situados.
+
+mkdir - criar uma pasta
+
+del/rmdir - deletar diretorios
+
+pwd - mostra o caminho completo de onde esta
+ 
+aula 5
+
+objetos fundamentais
+
+blobs - 'contem meta dados do git "sha1"'
+trees - 'armazenam blobs'
+commits - 'armazenas trees'
+
+aula 6
+
+chaves SSH e tokens
+
+chave ssh - uma forma de estabelecer uma conexao segura e incriptada entre duas maquinas 
+
+tokens - usado para fazer um commit(chave de segurança)
+
+
+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
+
+
+aula 7
+
+git init - iniciar o repositorio do git
+git add - mover arquivos e dar os primeiros comandos
+git commit - criar um commit
+
+flaguis -  -a= pastas ocultas 
+
+markdown - editor do git
+
+
+# se equipara com <h1> do html usando para o tamanha da fonte 
+
+**negrito**
+
+_italico_
+
+"espaço"-"espaço" cria uma "bolinha" lista não ordenada
+
+
+aula 8 em diante
+
+git nit - criar repositorio
+
+git status - vê o status dos arquivos
+
+git commit -m - commita o repositorio
+
+mv ./"file" - move objeto 
+
+git add - move para a area staging
+
+git add * - move para a area staging todos os documentos que foram modificados
+
+
+aula 9
+
+aula 10 
+
+git clone - para copiar algum repositorio
+
+git remote -v - aponta para qual diretorio esta apontado
+
+
+
+
+
+
+
+ 
+

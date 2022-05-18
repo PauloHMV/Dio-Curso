@@ -1,0 +1,30 @@
+-CRIANDO O AMBIENTE DE DESENVOLVIMENTO-
+
+.INSTALANDO O .NET
+
+
+-.Net framework, core e 5-
+.Net framework - funciona apenas no windows
+.Net core - foi criada em 2016 para integrar outros sistemas.
+.Net Standard - bibliotecas de classe base, integra as duas ferramentas
+.Net 5 - foi criado em 2020, uma plataforma unificada podendo ser usado para desktop, web, mobile etc..
+
+-FRAMEWORK E RUNTIME-
+Framekwor - "caixa de ferramentas" pronta para usar "componentes"
+Runtime - compila o bloco de codigo para binario que é a linguagem que o computador entende.
+
+-CONHECENDO A CLI DO .NET-
+CLI-(Command-Line Interface)
+ILC-(Interface de Linha de Comando)
+
+dotnet --version - saber a versão do .net instalado
+dotnet --help - todos os comando que pode ser usado
+dotnet --info - tras informações do .net
+dotnet new - cria um projeto
+dotnet new --list --tag 'web' - filtra por tag especifica
+dotnet --help - opções de consulta
+dotnet new console -o 'nomeEscolhido' - cria um projeto
+cd 'nomeDoProjeto'
+dotnet run - roda o projeto
+dotnet build - compila o projeto
+dotnet restore - resgata os projetos

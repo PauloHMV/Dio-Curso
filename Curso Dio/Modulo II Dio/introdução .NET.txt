@@ -1,0 +1,184 @@
+-INTRODUÇÃO .NET-
+
+-o que é .NET-
+
+. NET - uma plataforma de desenvolvimento com diversas ferramentas, linguagens de programação e bibliotecas que permitem o desenvolvimento de diversos tipos de aplicações.
+
+ASP.NET - Framework que estende .NET para criação de web apps.
+
+.NET foundation - uma plataforma "suporte" .NET independente
+
+.NET Framework - é mais aclopado ao windows
+
+.NET Core - é mais universializado usado para diversas plataformas windows, linux, mac...
+
+Xamarin - Mobile
+
+APIs??
+
+Bibliotecas - SDK , Runtime
+
+Nuget - gerenciados de pacotes
+
+Acesso de dados - ORM - Entity framework core, LINQ - consulta integrada a linguagem
+
+
+
+-INTRODUCÃO AO ECOSSISTEMA .NET-
+
+.NET Framework - ambiente de desenvolvimento e execução focado em windowns, possui dois componentes
+
+Common Language Runtime (um mecanismo que serve para gerenciar a execução das aplicações) e dentro dele tem o JIT just in time (compilador de tempo de execução)
+
+.NET Class Library é uma biblioteca para reutilização de codigos
+
+
+.NET/.NET Core
+
+ASP.NET Core MVC (utiliza MVC para aplicação web)
+
+Razor PAges e Razor markup - contruir aplicações com renderizações do lado do servidor.
+
+Tag Helpers - eles permitem que o codigo do lado do servidor participe da criação e renderização de elementos html em arquivos razor.
+
+Blazor - framework para construir aplicativos do lado do cliente, que são executados direto no navegador com WebAssembly (WASM) usando C#
+
+
+Xamarin - Plataforma de desenvolvimento mobile modernas com alto desempenho.
+
+Xararin.Forms - framework apen source para desenvolvimento de interfaces para o usuario 
+
+XAML(Extensible Application Markup Language) uma linguagem de marcação que usa tags. 
+
+Xamarin.Essentials-(Biblioteca)
+
+
+
+-PADRÃO DE CODIFICAÇÃO .NET-
+
+BOM CODIGO - precisa ser confiavél, sustentavel, eficiente, confiabilidade e facilidade antes de eficiencia e desempenho a não ser que seja um requisito daquela aplicação
+
+por que e como padronizar? melhorar a comunicação, facilitar manutenção de codigo, utilizar documentação e boas praticas de codificação, como clean code
+
+
+CLEAN CODE - conjunto de boas praticas na escrita de software para obtenção de maior legibilidade e manutenibilidade de codigo
+
+        Regras Gerais
+
+1 - Siga SEMPRE as convenções adotadas pela equipe!
+2 - KISS : Keep It Stupid Simple ( Matenha isto estupidamente simples)
+3 - Devolva o código mais limpo do que você encontrou
+4 - Busque sempre entender e solucionar os problemas a partir de sua raiz.
+
+        Regras para entendimento de código
+
+1 - Seja consistente na escrita de todo o código
+2 - Utilize variáveis concisas e que realmente passem a informação necessária
+3 - Observe a necessidade de criação de objetos de valor ao invés do uso de tipos primitivos
+4 - Evite dependências lógicas
+5 - Evite condicionais negativas
+
+     Regras para nomeação
+1 - Escolher nomes descritivos para classes, variáveis e métodos
+2 - Para variáveis semelhantes, faça uma distinção identificável
+3 - Utilizar nomes de fácil leitura e busca
+4 - Utilize constantes para guardar strings a serem comparadas
+5 - Não use prefixos ou caracteres especiais
+
+     Regras para métodos
+1 - Métodos não devem ser grandes e devem possuir somente um objetivo/responsabilidade
+2 - Métodos devem possuir nomes descritivos
+3 - Evite a exigência de muitos parâmetros dentro do método
+4 - Evite que uma função altere valores de outra classe sem ser a própria classe
+5 - Evite utilização de flags desnecessárias
+
+     Regras para comentarios
+1. Evite comentários desnecessário, torne seu código autoexplicativo
+2.Não seja redundante
+3. Não deixe código desnecessário comentado
+4. Comentários podem ser úteis para falar sobre a intenção de uma classe ou método
+5. Comentários podem explanar regras mais complexas e alertas sobre consequências mais séria
+
+     Regras para estruturação de código
+1 - Declare variáveis próximas de seu uso
+2 - Agrupe métodos similares
+3 - Declare funções de cima pra baixo
+4 - Mantenha poucas e curtas linhas
+5 - Use espaçamentos e identação corretamente
+
+
+-CONVENÇÕES E NOMECLATURA-
+
+NOTAÇÃO HÚNGARA - NÃO USAR
+
+CAMEL CASE - Escrever palavras ou frases compostas considerando a primeira letra da primeira palavra sempre minúscula e as subsequentes maiúsculas.
+Ex: valorDoDesconto, nomeCompleto, totalSalario…
+
+PASCAL CASE - Escrever palavras ou frases compostas considerando a primeira letra de cada palavra maiúscula
+Ex: ValorDoDesconto, NomeCompleto, TotalSalario…
+
+C# - Não há uma regra obrigatória, porém grande maioria dos desenvolvedores convenciona da seguinte forma:
+Nomes de classes e métodos -> PascalCase
+Nomes de variáveis e parâmetros -> CamelCase
+No caso de interfaces recomenda-se o uso do prefixo “ I “
+Ex: IEntidade, IRepositorioCliente
+
+
+-FERRAMENTAS E LINGUGENS-
+
+IDE - visual studio, visual studio code, OmniSharp é uma suite de desenvolvimento integrada, IONIDE pacote de expanção, JetBrains Rider, .Net Core CLI é um console.
+
+-Linguagens suportadas pela plataforma .NET-
+C#
+F#
+Visual Basic
+Javascript
+Typescript -> desenvolvida pela microsoft
+Python
+SQL
+C++
+
+
+-O QUE USAR E QUANDO USAR?-
+
+.Use .NET quando:
+1.Necessitar de plataforma cruzada
+2.Há direcionamento de microsserviços
+    Azure Service Fabric 
+    Azure App Service
+3.Uso de Docker
+    Hospedagem em infraestrutura Linux ou Windows
+    Azure Kurbenetes Service
+4.Alto desempenho e sistemas escalonáveis
+5.Necessidade de versões .NET diferentes por aplicação
+
+.Use .NET Framework quando:
+1.Não houver necessidade de migração para .NET
+2.Bibliotecas de terceiros ou pacotes NUGET não são disponíveis para .NET
+3.Necessidade de tecnologias não disponíveis para .NET
+    ASP.NET WebForms
+    ASP.NET Web Pages não estão incluídos no ASP.NET Core
+    Implementação do lado servidor para WCF
+    Workflow Foundation, Workflow Services e Workflow Data Services
+4.Quando o projeto não suporta determinada linguagem para o caso de Visual Basic e F#
+
+.Aplicações Desktop
+Universal Windows Apps
+Windows Presentation Foundation ( WPF)
+Windows Forms
+Xamarin.MAC
+
+.Aplicações baseadas em containers
+AZURE: Plataforma de nuvem completa que pode hospedar aplicativos e simplificar o desenvolvimento de novos aplicativos
+1.Para aplicações monolíticas > Azure App Service
+2.Aplicações com arquiteturas em camadas -> Azure Kurbenetes Service (AKS)
+3.Microserviços: AKS ou Azure Web Apps para Containers
+4.Funções Serveless e event handlers : Azure Functions
+5.Processamento Batch de larga escala: Azure Batch
+
+.Aprendizagem de máquina com .NET
+ML.NET
+1.Framework de aprendizagem de máquina de plataforma cruzada e open source
+2.Criação de modelos de aprendizagem de máquina a partir de interface gráfica ( Model Builder) ou por meio do ML.NET CLI
+3.Integração com outros frameworks famosos como TensorFlow, ONNX, INFER.NET
+
