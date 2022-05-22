@@ -1,0 +1,124 @@
+		-O QUE É .NET-
+
+é uma infraestrutura para desenvolvimento de software criada pela microsoft
+
+.Net standart - é um "ccontrato" entre os .NET framework e core
+
+C# F# VB são as linguagens suportada pelo .NET
+
+
+		-INICIANDO COM .NET-
+
+PREPARANDO O AMBIANTE
+
+instalação .net e vs code
+
+CONHECENDO A CLI DO .NET
+
+dotnet --help = documentação sobre o .net
+
+dotnet --version = mostra a versão do .net instalado na maquina
+
+CRIANDO UMA APLICAÇÃO CONSOLE
+
+dotnet new console -n "nome do projeto" = cria um novo projeto
+
+explore . = abre a pagina na qual foi criado o projeto
+
+code . = abre o projeto no visual studio code
+
+dotnet restore = restaura os pacotes
+
+dotnet build = ele tambem restaura e faz todo o processo de compilação e procura se tem algum erro.
+
+dotnet run = starta o programa
+
+		
+		-CONHECENDO O C#-
+
+O QUE É E COMO FUNCIONA O C# - é uma linguagem que foi criada no final da decada de 90 junto com o .NET, orientada a objeto fortemente tipada, similar a c, c++ ou java, suporta os conceitos de encapsulamento, herança e polimorfismo (OO), 
+o compilador é o ROSLYN
+
+o CLR tambem fornece outros serviços: 
+
+Garbage Collector retira objetos que não estao mais sendo usado para que não ocupe espaço na memoria.
+
+Exception Handler controla as excessoes de erros que acontece no nosso codigo
+
+Resources Manager gerencia os recursos
+
+ESTRUTURA DE PROGRAMA
+
+OS PRINCIPAIS CONCEITOS SÃO: programas, nomespaces, tipos, membros, assemblies(DLL)ou (EXE) dependendo do tipo do documento
+
+breack point = usado para pausa a execução do teste para ir passando manualmente
+
+
+	-CONHECENDO VARIAVEIS E INSTRUCOES-
+
+TIPOS DE VALOR - TEM DOIS TIPOS DE VARIAVEIS NO C#
+tipos de valor, variavel de tipo valor contêm diretamente seus dados.
+As variaveis tem sua propria copia dos dados e não é possivel que as operações afetem outra variavel(exceto no caso das variaveis de parametro -ref- e -out-)
+
+Numericos - sbyte, short, int, long, byte, ushort, uint, ulong.
+
+caracteres unicode - char
+
+pontos flutuantes - float, double, decimal
+
+booleano - bool
+
+TIPOS DE REFERENCIA - variaveis de tipos de referencia armazenam referencias a seus dados.
+É possivel que duas variaveis façam referencia ao mesmo objeto e, portanto, que operações em uma variavel afetem o objeto referenciado pela outra variavel
+tipos de classe - class, object, string
+
+tipos arrays - int[], int[,]
+
+interface e delegate tambem são um tipo de referencia no c#
+
+UTILIZANDO INSTRUCÕES EM PROGRAMAS
+
+Ações de um programa são expressas usando instruçoes
+{		}
+um bloco permite que varias iinstruções sejam escritas em contextos
+
+declaração de variaveis e constantes locais - if, switch, são instrução de condicional
+while, do, for, foreach, são instrução de repetição
+break, continue, return, são auxiliares
+
+ARRAY é uma estrutura de dados que contem um numero x de elementos, todos do mesmo tipo, que são acessados atraves de indices computados. 
+ARRAYS são tipos de referencia e a declaração de uma variavel array simplismente reserva espaço para uma referencia de uma instancia de array
+OS indices dos elementos de um array variam de 0 a comprimento do array -1
+
+
+	-CLASSES E OBJETOS ESSENCIAIS EM C#-
+
+O QUE SÃO CLASSES E OBJETOS EM C#
+
+classes são os tipos mais fundamentais de c#, uma classe é uma estrutura de dados que combina estado (campos) e açoes (metodos).
+
+objetos são instancias de uma classe, as classes suportam heranças e polimorfismo, mecanismos pelo quais as classes derivadas podem estender e especializar as classes base.
+
+Os membros de uma classe podem ser estaticos ou membros da instancia. Membros estaticos pertencem a classe e membros de instancia pertencem ao objeto. 
+
+Cada membro de uma classe tem uma acessibilidade associada, que controla as regioes do testo do programa que podem acessar o membro.
+Podem ser: public, protected, internal, private
+
+HERANÇA - uma declaração de classe pode especificar uma classe base, herdando os membros public, internal e protected da classe base. Omitir uma especificação de classe base é o mesmo que derivar do tipo object.
+
+MÉTODOS - um método é um membro que implementa uma computação ou ação que pode ser executada por um objeto ou classe, os metodos podem ter uma lista de parametros, que representam valores ou referencias de variaveis passados para o metodo, e um tipo de retorno, que especifica o tipo do valor calculado e retornado pelo metodo.
+
+
+	-TRABALHANDO COM STRUCTS, INTERFACES E ENUMS-
+
+O QUE SÃO STRUCTS (ESTRUTURAS) - assim como as classes, as strutcs são estruturas de dados que podem conter membros de dados e membros de ação, mas, diferentemente das classes, as structs são tipos de valor e não requerem alocação de heap (onde fica armazenado o valor dos membros). Uma variavel de tipo struct armazena diretamente os dados da estrutura, enquanto uma de tipo classe armazena uma referencia a um objeto alocado na memoria.
+STRUCTS não aceitam herança determinada pelo desenvolvedor. São uteris para pequenas estruturas de dados que possuem semantica de valor. O uso de structs em vez de classes para pequenos estruturas de dados pode fazer uma grande diferença no numero de alocaçoes de memoria.
+
+INTERFACES - uma interface define um contrato que pode ser implementações dos membros que define - apenas suas "assinaturas", as interfaces podem empregar heranças multipla.
+
+ENUMS (ENUMERADOR) - Um enum é um tipo de valor distinto com um conjunto de constantes nomeadas. Você define enumorações quando precisa definir um tipo que pode ter um conjunto de valores discretos. Cada tipo de enum possui um tipo integral correspondente chamado tipo subjacente do tipo de enum. Caso na seja declarado um tipo subjacente ele sera int
+
+
+		UMA SUNTESE DO QUE É .NET
+
+REVISÃO INTRODUTORIA

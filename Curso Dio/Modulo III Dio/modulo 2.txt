@@ -1,0 +1,23 @@
+  ENTENDENDO O QUE SÃO VALUE TYPES E REFERENCE TYPES
+
+(CTS) COMMON TYPE SYSTEM
+
+VALUE TYPE - contem uma instancia do tipo criado, a instancia sempre é copiada ao atribuir o valor para outra variavel, alocação na stack (melhor performance), o valor inicial é sempre o valor defout(zero) de cada tipo.
+
+tipos primitivos
+  valores numericos
+	int
+	decimal
+	double, etc
+  boolean(true/false)
+  char
+  tuples
+
+REFERENCE TYPES - contem uma referencia para uma instancia do tipo criado, a referencia nunca muda ao atribuir o valor para outra variavel, na stack fica um ponteiro e a alocação na HEAP, seu valor inicial é sempre "Null", requer gerenciamento da memoria atraves do GC(garbager collector), 
+
+classes
+interface
+delegate
+record
+object
+string
