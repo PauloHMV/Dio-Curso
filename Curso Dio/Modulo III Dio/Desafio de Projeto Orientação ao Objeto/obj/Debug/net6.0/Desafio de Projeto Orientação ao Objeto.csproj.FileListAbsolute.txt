@@ -1,0 +1,5 @@
+C:\Users\Paulo\Desktop\Dio\Dio-Curso\Curso Dio\Modulo III Dio\Desafio de Projeto Orientação ao Objeto\obj\Debug\net6.0\Desafio de Projeto Orientação ao Objeto.csproj.AssemblyReference.cache
+C:\Users\Paulo\Desktop\Dio\Dio-Curso\Curso Dio\Modulo III Dio\Desafio de Projeto Orientação ao Objeto\obj\Debug\net6.0\Desafio de Projeto Orientação ao Objeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo\Desktop\Dio\Dio-Curso\Curso Dio\Modulo III Dio\Desafio de Projeto Orientação ao Objeto\obj\Debug\net6.0\Desafio de Projeto Orientação ao Objeto.AssemblyInfoInputs.cache
+C:\Users\Paulo\Desktop\Dio\Dio-Curso\Curso Dio\Modulo III Dio\Desafio de Projeto Orientação ao Objeto\obj\Debug\net6.0\Desafio de Projeto Orientação ao Objeto.AssemblyInfo.cs
+C:\Users\Paulo\Desktop\Dio\Dio-Curso\Curso Dio\Modulo III Dio\Desafio de Projeto Orientação ao Objeto\obj\Debug\net6.0\Desafio de Projeto Orientação ao Objeto.csproj.CoreCompileInputs.cache

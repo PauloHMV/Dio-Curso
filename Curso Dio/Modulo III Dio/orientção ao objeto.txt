@@ -1,0 +1,12 @@
+	os 4 pilares da orientação ao objeto
+
+H.E.P.A
+
+Herança
+Encapsulamento
+Polimorfismo
+Abstração
+
+Ninja 
+
+Black Wizard

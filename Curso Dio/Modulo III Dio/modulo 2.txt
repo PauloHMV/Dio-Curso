@@ -21,3 +21,54 @@ delegate
 record
 object
 string
+
+byValor - faz copias
+byReference - ele manda só a refenrencia
+
+	APRENDENDO A UTILIZAR A PALAVRA CHAVE "REF"
+
+REF KEYWORD - indica que o conteudo de determinada variavel acessado por referencia, e pode ser usada em 4 situaçoes.
+
+  1 -  na declaração dos parametros do metodo e na chamada do metodo.
+  2 - na declaração do retorno do metodo
+  3 - no corpo do metodo para receber um retorno com ref
+  4 - na declaração de uma struct
+
+	DESCOBRINDO O QUE É UM REF STRUCT
+
+REF STRUCT - serve para assegurar que a struct ficara na stack e nunca ira para a HEAP.
+
+  ref struct NÃO PODE:
+	1.ser elemento tipado de um array
+	2.ser o tipo em campo em uma classe ou não-ref struct
+ 	3.implementar interfaces
+ 	4.ser convertida para object e nem para Value Type
+ 	5.ser usada em métodos assincronos
+
+QUANDO USAR? quando for necessario garantir que a instancia da struct não ira acessar a HEAP, quando for usar tipos do c# que são ref struct, como o caso do ref struct span.
+
+	APRENDENDO A COMPARAR VALORE E REFERENCIAS
+
+O QUE É O COLETOR DE LIXO DO C# E COMO ELE FUNCIONA
+
+GARBAGE COLLECTOR (GC) - suporte a criação e destruição de objetos na HEAP.
+
+VANTAGENS:
+	1 - SEGURANÇA
+	2 - PROGRAMADOR NAO PRECISA SE PREOCUPAR COM A LIBERAÇÃO DE MEMORIA
+	3 - NEM COM SOBRESCRITA DE MEMORIA EM USO
+
+DESVANTAGEM:
+	1 - PERFORMANCE
+	2 - OBSERVABILIDADE
+
+ARQUITETURA - o GC é dividido em 3 gerações
+	. Gen 1
+	  . Objetos de ciclo de vida curto
+	. Gen 2
+	  . Buffer de alternancia entre Gen 1 e Gen3
+	. Gen 3
+	  . Objetos com longo ciclo de vida em especial objetos criados como "static"
+
+
+REVISÃO GERAL - (CLR) COMMON LANGUAGE RUNTIME
