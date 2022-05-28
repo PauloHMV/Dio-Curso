@@ -1,0 +1,30 @@
+CONSTRUTORES, PROPRIEDADES, DELEGATES E EVENTOS EM .NET
+
+AULA 1 - CONSTRUTORES
+
+Um contrutor é um método especial, que contem o mesmo nome do seu tipo classe, e tem o objetivo de definir valores padão, limitar uma instancia e facilitar a instanciação de um objeto.
+	Um construtor não possui um retorno;
+	um construtor padrão é sempre definido quando nao declaramos nenhum para sua classe
+	Uma clase pode ter mais de um construtor.
+
+
+AULA 2 - GETTERS E SETTERS
+
+O get e set serve para que voce possa atribuir um valor em uma variavel de maneira controlada e com validaçoes.
+
+AULA 3 - MODIFICADORES
+
+Readonly (somente leitura) bloqueia um campo contra alterações que nao sejam em sua inicialização ou pelo proprio construtor.
+
+Constante representa um valor que somente pode ser atrinuido no momento de sua inicialização, e não pode ser modificado posteriormente.
+
+
+AULA 4 - DELEGATES
+
+Um delegate é uma maneira de passar um método como referencia, podendo ser usado como um callback, aceitando qualquer metodo que contenha a mesma assinatura.
+
+
+
+AULA 5 - EVENTOS
+
+Eventos é um mecanismo de comunicação entre objetos, onde existe um publisher, que realiza o evento e o subscriber, que se inscreve em um evento.

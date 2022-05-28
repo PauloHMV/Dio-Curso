@@ -1,0 +1,33 @@
+	-trabalhando com arquivos e streams em c#-
+
+Namespace System.IO - agrega um conjunto de classes, estrutura, ennumerdores e delegates relativos a entrada e saida de dados (Input/Output). 
+
+	Principais Classes:
+
+File e FileInfo = fornece suporte para criar, copiar, apagar, mover e abrir arquivos
+
+Directory e DirectoryInfo = fornece suporte para criar, mover e percorrer diretorios e subdiretorios
+
+FileSystemWather = monitora mudança no sistema de arquivos, atraves de disparo de eventos quando um arquivo ou diretorio muda
+
+FileStream, MemoryStream, StreamReader 
+
+File And File Info
+
+STREAM = uma classe abstrata que fornece uma visão genérica de uma sequencia de bytes. Existe uma grande vantagem de se utilizar streams, pois os dados são escritos, lidos ou modificados atraves de um Buffer.
+
+Buffer = especie de reservatório onde podemos armazenar uma grande quantidadde de dados em pequenos pedaços. O famoso dividir para conquistar.
+
+
+IMPORTAR DADOS - NECESSISDADE
+
+sistemas precisam se comunicar e isso pode ocorrer de diversas formas, como por exemplo: APIs Rest, Mensagerua e ate mesmo troca de arquivo
+
+FORMATOS - o formato mais utilizado na atualidade é o JSON (Java Script Object Notation) mas temos outros como: XML, Positional, Tab Delimited e CSV
+
+CSV - (Comma-separated Values)
+	os dados são separados por virgula;
+	podem ou não conter aspas para ajudadr na identificação do formato contido em cada coluna;
+	podem ou não possuir cabeçalho;
+	podem utilizar outro tipo de delimitador;
+

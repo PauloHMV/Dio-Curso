@@ -1,0 +1,59 @@
+	-Programando com orientação a objeto com c#-
+
+
+Aula 1 - Conhecendo a POO
+
+A POO é um paradigma de programação, ou seja, corresponde a uma tecnica de programação para um fim especifico. Dentro dessa tecnica, existem quatro pilares: Abstração, encapsulamento, herança, polimorfismo.
+
+O principal conceito da POO são classes e objetos!
+
+classe = a planta de uma casa onde fica os dados e caracteristicas dela
+
+objeto = é a casa
+
+Aula 2 - Abstração
+
+Abstrair um objeto do mundo real para um contexto especifico, considerando apenas os atributos importantes.
+
+Aula 3 - Encapsulamento
+
+o encapsulamento serve para proteger uma classe e definir limites para alteração de suas propriedades, serve para ocultar seu comportamento e expor somente o necessario.
+
+Aula 4 - Herança
+
+a herança nos permite reutilizar atributos, métodos e comporyamentos de uma classe em outras classes, serve para agrupar objetos que são do mesmo tipo, porem com caracteristicas diferentes.
+
+
+Aula 5 - Polimorfismo
+
+Polimorfismo significa "muitas formas", com ele podemos sobrescrever metodos das classes filhas,para se comportarem de maneiras diferentes, e terem sua propria implementação. Polimorfismo de compilação (overlood/early binding), polimorfismo de execução (override/Late binding).
+
+Aula 6 - Classes Abstratas
+
+Classe abstrata tem como objetivo ser exclusivamente um modelo para ser herdado, portanto não pode ser instanciada. Você pode implementar metodos ou deixa-los a cargo de quem herdar.
+
+
+CLasse Selada
+
+uma classe selada tem como objetivo de impedir que outras classes façam uma herança dela, ou seja, nenhuma classe pode ser sua derivada, Tambem existem métodos e propriedades seladas
+
+
+Classe Object
+
+A classe System.Object é a mãe de todas as classes na hierarquia do .Net, Todas as classes derivam, direta ou indiretamente da classe Object, e ela tem como objetivo prover serviços de baixo nivel para suas classes filhas
+
+
+Aula 7 - Interfaces
+
+uma interface é um contrato que pode ser implementado por uma classe, é como se fosse uma classe abstrata, podendo definir metodos abstratos para serem implentados. Assim como uma classe abstrata, uma interface não pode ser instanciada.
+
+
+Aula 8 - Arquivo
+
+o c# apresenta algumas classes estaticas que facilitam o trabalho com arquivos, dentre elas:
+	file
+	directory
+	path
+
+
+

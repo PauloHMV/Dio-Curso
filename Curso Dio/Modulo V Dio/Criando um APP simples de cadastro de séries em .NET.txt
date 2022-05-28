@@ -1,0 +1,8 @@
+Criando um APP simples de cadastro de séries em .NET
+
+CRUD -  Create / criar
+	Read / Ler
+	Update / Atualizar
+	Delete / Excluir
+
+

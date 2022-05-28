@@ -1,0 +1,9 @@
+DESENVOLVIMENTO DE APLICAÇÕES COM .NET
+
+Entity framework é um ORM(mapeador relacional de objeto) que permite que os desenvolvedores de .net trabalhem com um banco de dados usando objetos .net, elimina a necessidade da maioria do codigo de acesso a dados que os desenvolvedores geralmente precisam gravar.
+
+
+
+API interface de programação de aplicaçoes, as APIs são uma forma de reaalizar a integração entre sistemas mesmo que esses possuam linguagens de programação diferente. Um exemplo de API é o google maps que é utilizado por empresas d hotel que é disponibiliza dentro do site da empresa a localização que ele fica
+
+REST é um conjunto de principios que quando aplicados de maneira correta em uma aplicação, a beneficia com a arquitetura e padroes da propria web. Uma aplicação que é capaz de aplicar tais principios é chamada de RestFul

@@ -1,0 +1,17 @@
+	-TRATAMENTO DE ERRA EM C# COM EXCEPTIONS-
+
+Estruturando um teste unitario
+
+Padão AAA
+	Arrange
+	Act
+	Assert
+
+
+sugestão de projeto
+
+1 - projeto calculadora via console
+	minimo 4 operações
+	utilizar boas pratica para tratamento de exceções
+	
+
